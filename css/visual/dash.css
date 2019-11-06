@@ -1,0 +1,76 @@
+body {
+   margin: 0;
+   background: #333;
+   font-family: 'Cuprum', sans-serif;
+}
+#dash-nav {
+    border-color: darkslategrey;
+    background-color: black;
+    color: white;
+}
+.icon {
+    font-size: 2rem;
+}
+#front-poster {
+  font-family: 'Cuprum', sans-serif;
+  font-weight: 100;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin: 2rem;
+  float: roight;
+  font-size: 1.2 rem;
+}
+h1 {
+    margin-top: 0;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+
+@media screen and (max-width: 500px) {
+    div {width: 70%;}
+
+}
+@media screen and (max-device-width: 800px) {
+    html {background: url('./img/space.jpg') #000 no-repeat center center fixed; }
+    #bgvid {display: none;}
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('/media/architecture-2256489_1920.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade {
+    opacity: .5;
+}
+
+#back-poster {
+   background-image: url('../../media/back.jpg');
+   background-size: cover;
+}
+.logo {
+   font-family: 'Lobster', cursive;
+   font-size: 36px;
+}
+footer {
+    min-height: 200px;
+    height:auto;
+    background-color: #222;
+    color: dodgerblue;
+    width: auto;  
+}
+#flash {
+    background-color: white;
+    color: #222;
+    width: 100%;
+}
